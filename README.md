@@ -1,17 +1,15 @@
-phptasks
-========
+Basic Tasks
+===========
 
-# What the heck is this?
-
-This repo contains a collection of various tasks for aspiring PHP developers to try their hand at.
+This branch contains a number of tasks relating to various PHP language features. The aim is to get all the tests to
+pass by filling out the empty methods to satisfy the unit tests.
 
 ## Getting started
 
-1. Fork fork and clone the repo.
-2. Run a composer install
-3. Run `vendor/bin/codecept run unit`
-4. Write the code and stop the tests from failing!
+1. Run a composer install
+2. Run `vendor/bin/codecept run unit`
+3. Write the code and stop the tests from failing!
 
-## Contrabutions
-
-PRs with new tasks are always welcome!
+If you want to run a single test you can use `vendor/bin/codecept run unit path/to/test/file.php`. This expects the path
+to be from the `tests/unit/` folder so this does not need to be specified. Eg: `vendor/bin/codecept run unit MathTest.php`
+will run just the tests contained in `tests/unit/MathTest.php`.
