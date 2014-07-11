@@ -55,7 +55,7 @@ class Commander
 	 */
 	protected function bye()
 	{
-		return 'Good bye.';
+		return 'Goodbye.';
 	}
 
 	/**

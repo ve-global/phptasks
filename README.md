@@ -34,4 +34,4 @@ pattern.
 ## Extra Credit
 
  - [ ] Update the work you have done previously to allow extra arguments to be passed to each command when it is run.
- - [ ] Update the help task to automatically generate the list of tasks and descriptions.
+ - [ ] Update the help command to automatically generate the list of tasks and descriptions.
