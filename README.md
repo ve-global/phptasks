@@ -1,12 +1,11 @@
 Basic Tasks
 ===========
 
-This branch contains a number of tasks relating to various PHP language features. The aim is to get all the tests to
-pass by filling out the empty methods to satisfy the unit tests.
+The aim of this branch is to refactor the code to remove the huge switch statement.
 
 ## Getting started
 
-1. Run a composer install
+1. Run a composer update
 2. Run `vendor/bin/codecept run unit`
 3. Write the code and stop the tests from failing!
 
