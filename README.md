@@ -1,7 +1,7 @@
 Basic Tasks
 ===========
 
-The aim of this branch is to refactor the code to remove the huge switch statement.
+The aim of this branch is to learn about a practical use of the "repository" design patten.
 
 ## Getting started
 
