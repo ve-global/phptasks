@@ -2,7 +2,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-use \PHPTasks\Main;
+use \PHPTasks\Commander;
 
 // Grab the command we are trying to run
 $command = '';
@@ -12,8 +12,8 @@ if ($argc > 1)
 }
 
 // Run the command
-$processor = new Main;
-$result = $processor->runCommand($command);
+$processor = new Commander;
+$result = $processor->run($command);
 
 // Output the result
 echo $result;

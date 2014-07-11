@@ -7,7 +7,7 @@ namespace PHPTasks;
  *
  * @package PHPTasks
  */
-class Main
+class Commander
 {
 
 	/**
@@ -17,7 +17,7 @@ class Main
 	 *
 	 * @return string
 	 */
-	public function runCommand($command)
+	public function run($command)
 	{
 		switch (strtolower($command))
 		{
