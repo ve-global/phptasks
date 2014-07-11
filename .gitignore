@@ -1,6 +1,0 @@
-composer.phar
-composer.lock
-.idea
-.nbproject
-tests/_log/*
-vendor
