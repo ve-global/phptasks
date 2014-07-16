@@ -12,7 +12,6 @@ Each branch contains a different set of activities centered on a different topic
 
 The following exercises are available:
  - `basic_tasks` This is a collection of tasks to solve to get better acquainted with basic php features
- - `dic_intro` An introduction to using a dependency injection container
  - `repository_pattern` Refactor existing code to make use of the repository design pattern
 
 # Contributing
